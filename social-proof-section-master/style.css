@@ -1,0 +1,170 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Spartan" sans-serif;
+  height: 100vh;
+}
+
+.contain {
+  width: 100%;
+  height: 100vh;
+  padding: 80px;
+}
+.container {
+  width: 100rem;
+  height: 53rem;
+  margin: auto;
+  padding: 100px;
+  overflow: hidden;
+  background-image: url(/social-proof-section-master/desktopbottom.svg),
+    url(/social-proof-section-master/desktoptop.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right, top left;
+  background-size: 1085px 673px, 584px 362px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.description {
+  width: 450px;
+}
+.title {
+  display: block;
+  padding-right: 100px;
+  font-family: "spartan";
+  font-weight: bolder;
+  font-size: 40px;
+  color: hsl(300, 43%, 22%);
+}
+.txte {
+  color: hsl(303, 10%, 53%);
+  font-family: "spartan";
+  line-height: 20px;
+  margin-top: 20px;
+}
+.rated {
+  width: 67.7%;
+  display: flex;
+  flex-direction: column;
+}
+
+.star {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 63px;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+}
+.star:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.star.first {
+  margin-left: 380px;
+}
+.star.second-star {
+  align-self: center;
+  margin-left: 400px;
+}
+
+.star.third {
+  align-self: flex-end;
+}
+.img-star {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}
+
+.icone-star {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
+
+.write {
+  margin-left: 20px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-family: "spartan";
+}
+
+.review {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  margin-top: 30px;
+}
+
+.card {
+  width: 450px;
+  height: 300px;
+  padding: 35px;
+  border-radius: 30px;
+}
+.card.first {
+  margin-top: 50px;
+  background-color: hsl(300, 43%, 22%);
+}
+
+.card.second {
+  margin: 70px 0px 0px 30px;
+  background-color: hsl(300, 43%, 22%);
+}
+.card.third {
+  margin: 90px 0px 0px 30px;
+  background-color: hsl(300, 43%, 22%);
+}
+.head {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  display: flex;
+  background-color: rgb(211, 211, 221);
+}
+
+.img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+}
+
+.name {
+  display: flex;
+  display: inline-block;
+  align-self: center;
+  margin-left: 10px;
+  width: 100%;
+  font-family: "spartan";
+}
+
+.prenom {
+  width: 200px;
+  margin-bottom: 5px;
+
+  color: white;
+}
+
+.attribut {
+  width: 200px;
+  color: hsl(333, 80%, 67%);
+}
+
+.note {
+  display: inline-block;
+  margin: 0px;
+  padding: 15px 0px 0px 10px;
+  color: hsl(0, 0%, 100%);
+  line-height: 25px;
+  font-family: "spartan";
+}
